@@ -20,9 +20,11 @@ Functional data analysis (FDA) deals with data that ["provides information about
 
 #### Functional regression approaches
 
-* [GPFDA](https://cran.r-project.org/web/packages/GPFDA/index.html): Use functional regression as the mean structure and Gaussian Process as the covariance structure.
-* The [refund](https://cran.r-project.org/web/packages/refund/index.html) package provides methods for function-on-scalar, scalar-on-function, and function-on-function regression. Some of the functions are applicable to image data.
-* The [FDboost](https://cran.r-project.org/web/packages/refund/index.html) package implements regression models for  scalar-on-function, function-on-scalar and function-on-function regression models, that are fitted by a component-wise gradient boosting algorithm.
+* [GPFDA](https://cran.r-project.org/web/packages/GPFDA/index.html) uses functional regression as the mean structure and Gaussian processes as the covariance structure.
+* The [refund](https://cran.r-project.org/web/packages/refund/index.html) package provides spline-based methods for roughness penalized function-on-scalar, scalar-on-function, and function-on-function regression. Some of the functions are applicable to image data.  
+[refund.wave](https://cran.r-project.org/web/packages/refund.wave/index.html) provides methods for regressing scalar responses on functional or image predictors, via transformation to the wavelet domain and back.  
+[refund.shiny](https://cran.r-project.org/web/packages/refund.shiny/index.html) provides interactive plots for functional data analyses.
+* [FDboost](https://cran.r-project.org/web/packages/refund/index.html) implements flexible additive regression models and variable selection for scalar-on-function, function-on-scalar and function-on-function regression models that are fitted by a component-wise gradient boosting algorithm.
 * The [fdaPDE](https://cran.r-project.org/web/packages/fdaPDE/index.html) package contains an implementation of regression models with partial differential regularizations.
 * The [flars](https://cran.r-project.org/web/packages/flars/index.html) package implements variable selection for the functional linear regression with scalar response variable and mixed scalar/functional predictors based on the least angle regression approach.
 * The [fdapace](https://cran.r-project.org/web/packages/fdapace/index.html) provides functional principal component based methods for sparsely or densely sampled random trajectories and time courses for functional regression and correlation, for Longitudinal Data Analysis, the analysis of stochastic processes from samples of realized trajectories, and for the analysis of underlying dynamics.
@@ -52,4 +54,4 @@ Functional data analysis (FDA) deals with data that ["provides information about
 ------------------
 
 The Functional Data Analysis Task View is written by Fabian Scheipl and Tore Erdmann (LMU München, Germany). 
-Please open an issue at [https://github.com/fabian-s/taskview_fda/issues]() with suggestions, additions and improvements (or fork and make a pull request).
+Please open an issue at [https://github.com/fabian-s/taskview_fda/issues]() with suggestions, additions and improvements (... or fork it and send a pull request).
