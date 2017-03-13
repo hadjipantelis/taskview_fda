@@ -49,6 +49,7 @@ Functional data analysis (FDA) deals with data that ["provides information about
 * [ftsa](https://cran.r-project.org/web/packages/ftsa/index.html) Functions for visualizing, modeling, forecasting and hypothesis testing of functional time series.
 * [pcdpca](https://cran.r-project.org/web/packages/pcdpca/index.html) extends multivariate dynamic principal components to periodically correlated multivariate time series.
 
+------------------
 
 The Functional Data Analysis Task View is written by Fabian Scheipl and Tore Erdmann (LMU München, Germany). 
-Please open an issue at  with suggestions.
+Please open an issue at [https://github.com/fabian-s/taskview_fda/issues]() with suggestions, additions and improvements (or fork and make a pull request).
