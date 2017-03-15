@@ -3,10 +3,10 @@ title: 'CRAN Task View: Functional Data Analysis'
 output: html_document
 ---
 
-__Maintainer__: Fabian Scheipl, Tore Erdmann  
-__Contact__: fabian.scheipl@stat.uni-muenchen.de  
+__Maintainer__: Fabian Scheipl, Sonja Greven, Tore Erdmann  
+__Contact__: fabian.scheipl@stat.uni-muenchen.de, sonja.greven@stat.uni-muenchen.de  
 __Version__: 2017-03-13  
-__URL__: 	https://CRAN.R-project.org/view=FDA  
+__URL__: 	https://github.com/fabian-s/taskview_fda/blob/master/CRAN_task_view_fda.md <!--https://CRAN.R-project.org/view=FDA-->  
 
 Functional data analysis (FDA) deals with data that ["provides information about curves, surfaces or anything else varying over a continuum"](https://en.wikipedia.org/wiki/Functional_data_analysis). This task view catalogues available packages in this rapidly developing field.
 
@@ -18,7 +18,7 @@ Functional data analysis (FDA) deals with data that ["provides information about
 * [fds](https://cran.r-project.org/web/packages/fds/index.html) contains 19 data sets with functional data.
 * The [rainbow](https://cran.r-project.org/web/packages/rainbow/index.html) package contains functions and data sets for functional data display, exploratory analysis and outlier detection.
 
-#### Functional regression approaches
+#### Regression models for functional data
 
 * [GPFDA](https://cran.r-project.org/web/packages/GPFDA/index.html) uses functional regression as the mean structure and Gaussian processes as the covariance structure.
 * The [refund](https://cran.r-project.org/web/packages/refund/index.html) package provides spline-based methods for roughness penalized function-on-scalar, scalar-on-function, and function-on-function regression. Some of the functions are applicable to image data.  
@@ -49,9 +49,9 @@ Functional data analysis (FDA) deals with data that ["provides information about
 * [switchpreg](https://cran.r-project.org/web/packages/switchnpreg/index.html): Functions for estimating the parameters from the latent state process and the functions corresponding to the J states as proposed by De Souza and Heckman (2013).
 * [fdcov](https://cran.r-project.org/web/packages/fdcov/index.html) Provides a variety of tools for the analysis of covariance operators.
 * [ftsa](https://cran.r-project.org/web/packages/ftsa/index.html) Functions for visualizing, modeling, forecasting and hypothesis testing of functional time series.
-* [pcdpca](https://cran.r-project.org/web/packages/pcdpca/index.html) extends multivariate dynamic principal components to periodically correlated multivariate time series.
+* [pcdpca](https://cran.r-project.org/web/packages/pcdpca/index.html) Extends multivariate dynamic principal components to periodically correlated multivariate time series.
 
 ------------------
 
-The Functional Data Analysis Task View is written by Fabian Scheipl and Tore Erdmann (LMU München, Germany). 
+The Functional Data Analysis Task View is written by Fabian Scheipl, Sonja Greven and Tore Erdmann (LMU München, Germany). 
 Please open an issue at [https://github.com/fabian-s/taskview_fda/issues]() with suggestions, additions and improvements (... or fork it and send a pull request).
