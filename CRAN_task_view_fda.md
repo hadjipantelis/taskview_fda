@@ -35,6 +35,7 @@ Functional data analysis (FDA) deals with data that ["provides information about
 * The [Funclustering](https://cran.r-project.org/web/packages/Funclustering/index.html) package contains a model-based clustering algorithm for multivariate functional data. 
 * [funFEM](https://cran.r-project.org/web/packages/funFEM/index.html) The funFEM algorithm (Bouveyron et al., 2014) allows to cluster functional data by modeling the curves within a common and discriminative functional subspace.
 * The [funHDDC](https://cran.r-project.org/web/packages/funHDDC/index.html) package provides the funHDDC algorithm (Bouveyron & Jacques, 2011) which allows to cluster functional data by modeling each group within a specific functional subspace. 
+* [funcy](https://cran.r-project.org/web/packages/funcy/index.html) provides a unified framework to cluster functional data according to one of seven models. All models are based on the projection of the curves onto a basis. Method specific as well as general visualization tools are available.
 
 #### Registering functional data 
 
