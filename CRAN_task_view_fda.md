@@ -1,14 +1,23 @@
 ---
-title: 'CRAN Task View: Functional Data Analysis'
-output: html_document
+title: 'CRAN Task View: FDA'
+output: 
+  html_document: 
+    highlight: null
+    self_contained: no
+    theme: null
 ---
 
-__Maintainer__: Fabian Scheipl, Sonja Greven, Tore Erdmann  
-__Contact__: fabian.scheipl@stat.uni-muenchen.de, sonja.greven@stat.uni-muenchen.de  
-__Version__: 2017-03-13  
-__URL__: 	https://github.com/fabian-s/taskview_fda/blob/master/CRAN_task_view_fda.md <!--https://CRAN.R-project.org/view=FDA-->  
+<!--
+<name>FDA</name>  
+<topic>Functional data analysis</topic>  
+<maintainer email="fabian.scheipl@stat.uni-muenchen.de">Fabian Scheipl </maintainer>  
+<maintainer email="sonja.greven@stat.uni-muenchen.de">Sonja Greven </maintainer>  
+<version>2017-03-28</version>  
 
-Functional data analysis (FDA) deals with data that ["provides information about curves, surfaces or anything else varying over a continuum"](https://en.wikipedia.org/wiki/Functional_data_analysis). This task view catalogues available packages in this rapidly developing field.
+<info><p>
+Functional data analysis (FDA) deals with data that <a href="https://en.wikipedia.org/wiki/Functional_data_analysis">"provides information about curves, surfaces or anything else varying over a continuum"</a>. This task view catalogues available packages in this rapidly developing field.</p>
+-->
+
 
 #### General functional data analysis
 
@@ -22,8 +31,8 @@ Functional data analysis (FDA) deals with data that ["provides information about
 
 * [GPFDA](https://cran.r-project.org/web/packages/GPFDA/index.html) uses functional regression as the mean structure and Gaussian processes as the covariance structure.
 * [growfunctions](https://cran.r-project.org/web/packages/growfunctions/index.html) estimates a collection of time-indexed functions under either of Gaussian process (GP) or intrinsic Gaussian Markov random field (iGMRF) prior formulations where a Dirichlet process mixture allows sub-groupings of the functions to share the same covariance or precision parameters. The GP and iGMRF formulations both support any number of additive covariance or precision terms, respectively, expressing either or both of multiple trend and seasonality.
-* The [refund](https://cran.r-project.org/web/packages/refund/index.html) package provides spline-based methods for roughness penalized function-on-scalar, scalar-on-function, and function-on-function regression. Some of the functions are applicable to image data.  
-* [refund.wave](https://cran.r-project.org/web/packages/refund.wave/index.html) provides methods for regressing scalar responses on functional or image predictors, via transformation to the wavelet domain and back.  
+* The [refund](https://cran.r-project.org/web/packages/refund/index.html) package provides spline-based methods for roughness penalized function-on-scalar, scalar-on-function, and function-on-function regression. Some of the functions are applicable to image data.
+* [refund.wave](https://cran.r-project.org/web/packages/refund.wave/index.html) provides methods for regressing scalar responses on functional or image predictors, via transformation to the wavelet domain and back.
 * [refund.shiny](https://cran.r-project.org/web/packages/refund.shiny/index.html) provides interactive plots for functional data analyses.
 * [FDboost](https://cran.r-project.org/web/packages/refund/index.html) implements flexible additive regression models and variable selection for scalar-on-function, function-on-scalar and function-on-function regression models that are fitted by a component-wise gradient boosting algorithm.
 * The [fdaPDE](https://cran.r-project.org/web/packages/fdaPDE/index.html) package contains an implementation of regression models with partial differential regularizations.
@@ -32,9 +41,9 @@ Functional data analysis (FDA) deals with data that ["provides information about
 
 #### Clustering functional data 
 
-* The [Funclustering](https://cran.r-project.org/web/packages/Funclustering/index.html) package contains a model-based clustering algorithm for multivariate functional data. 
+* The [Funclustering](https://cran.r-project.org/web/packages/Funclustering/index.html) package contains a model-based clustering algorithm for multivariate functional data.
 * [funFEM](https://cran.r-project.org/web/packages/funFEM/index.html) The funFEM algorithm (Bouveyron et al., 2014) allows to cluster functional data by modeling the curves within a common and discriminative functional subspace.
-* The [funHDDC](https://cran.r-project.org/web/packages/funHDDC/index.html) package provides the funHDDC algorithm (Bouveyron & Jacques, 2011) which allows to cluster functional data by modeling each group within a specific functional subspace. 
+* The [funHDDC](https://cran.r-project.org/web/packages/funHDDC/index.html) package provides the funHDDC algorithm (Bouveyron & Jacques, 2011) which allows to cluster functional data by modeling each group within a specific functional subspace.
 * [funcy](https://cran.r-project.org/web/packages/funcy/index.html) provides a unified framework to cluster functional data according to one of seven models. All models are based on the projection of the curves onto a basis. Method specific as well as general visualization tools are available.
 
 #### Registering functional data 
@@ -44,16 +53,14 @@ Functional data analysis (FDA) deals with data that ["provides information about
 
 #### Other
 
-* [MVFPCA](https://cran.r-project.org/web/packages/MFPCA/index.html): Multivariate functional principal component analysis for multivariate functional data, also for data observed on different dimensional domains (e.g., images and curves).
+* [MFPCA](https://cran.r-project.org/web/packages/MFPCA/index.html): Multivariate functional principal component analysis for multivariate functional data, also for data observed on different dimensional domains (e.g., images and curves).
 * The [fdatest](https://cran.r-project.org/web/packages/fdatest/index.html) package provides an implementation of the Interval Testing Procedure for functional data in different frameworks (i.e., one or two-population frameworks, functional linear models) by means of different basis expansions (i.e., B-spline, Fourier, and phase-amplitude Fourier).
-* The [geofd](https://cran.r-project.org/web/packages/geofd/index.html) package provides Kriging based methods for predicting functional data (curves) with spatial dependence. 
-* [RFgroove](https://cran.r-project.org/web/packages/RFgroove/index.html): Importance Measure and Selection for Groups of Variables with Random Forests. 
-* [switchpreg](https://cran.r-project.org/web/packages/switchnpreg/index.html): Functions for estimating the parameters from the latent state process and the functions corresponding to the J states as proposed by De Souza and Heckman (2013).
+* The [geofd](https://cran.r-project.org/web/packages/geofd/index.html) package provides Kriging based methods for predicting functional data (curves) with spatial dependence.
+* [RFgroove](https://cran.r-project.org/web/packages/RFgroove/index.html): Importance Measure and Selection for Groups of Variables with Random Forests.
+* [switchnpreg](https://cran.r-project.org/web/packages/switchnpreg/index.html): Functions for estimating the parameters from the latent state process and the functions corresponding to the J states as proposed by De Souza and Heckman (2013).
 * [fdcov](https://cran.r-project.org/web/packages/fdcov/index.html) Provides a variety of tools for the analysis of covariance operators.
 * [ftsa](https://cran.r-project.org/web/packages/ftsa/index.html) Functions for visualizing, modeling, forecasting and hypothesis testing of functional time series.
 * [pcdpca](https://cran.r-project.org/web/packages/pcdpca/index.html) Extends multivariate dynamic principal components to periodically correlated multivariate time series.
 
-------------------
-
-The Functional Data Analysis Task View is written by Fabian Scheipl, Sonja Greven and Tore Erdmann (LMU München, Germany). 
-Please open an issue at [https://github.com/fabian-s/taskview_fda/issues]() with suggestions, additions and improvements (... or fork it and send a pull request).
+The Functional Data Analysis Task View is written by Fabian Scheipl, Sonja Greven and Tore Erdmann (LMU München, Germany).
+Please open an issue at <a href="https://github.com/fabian-s/taskview_fda/issues">our Github repository</a> with suggestions, additions and improvements (... or fork it and send a pull request).
