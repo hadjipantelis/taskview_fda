@@ -24,7 +24,7 @@ get_maintainer_mail = function(pkg_name) {
 }
 
 # turn md into ctv-compliant XML
-md2ctv <- function(file, save = TRUE) {
+md2ctv <- function(file, links, save = TRUE) {
   pkgs = extract_pkgs(file)
   html = rmarkdown::render(file)
   ll = readLines(html)
@@ -41,9 +41,9 @@ md2ctv <- function(file, save = TRUE) {
   ll = sub("<a href=\"https://cran.+>(\\w+)</a>", replacement = "<pkg>\\1</pkg>", ll)
 
   # add XML header & footer
-  pkglist = c("<packagelist>", paste0("<pkg>", pkgs, "</pkg>"), "</packagelist>")
+  pkglist = c("<packagelist>", paste0("<pkg>", sort(unique(pkgs)), "</pkg>"), "</packagelist>")
   ll = c("<CRANTaskView>", ll, "</info>", pkglist,
-    "<links><a href=\"http://www.psych.mcgill.ca/misc/fda/\">FDA</a></links>",
+    "<links>", links, "</links>",
     "</CRANTaskView>")
 
   if (save) writeLines(ll, "FDA.xml")

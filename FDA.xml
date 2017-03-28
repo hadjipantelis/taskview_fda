@@ -6,14 +6,16 @@
 <version>2017-03-28</version>  
 
 <info><p>
-Functional data analysis (FDA) deals with data that <a href="https://en.wikipedia.org/wiki/Functional_data_analysis">"provides information about curves, surfaces or anything else varying over a continuum"</a>. This task view catalogues available packages in this rapidly developing field.</p>
+Functional data analysis (FDA) deals with data that <a href="https://en.wikipedia.org/wiki/Functional_data_analysis">"provides information about curves, surfaces or anything else varying over a continuum."</a> This task view catalogues available packages in this rapidly developing field.</p>
 <p><strong>General functional data analysis</strong></p>
 <ul>
 <li>The <pkg>fda</pkg> package provides functions to enable all aspects of functional data analysis: It includes object-types for functional data with corresponding functions for smoothing, plotting and regression models. The package includes data sets and script files for working examples from the book: Ramsay, J. O., Hooker, Giles, and Graves, Spencer (2009) “Data Analysis with R and Matlab” (Springer).</li>
+<li><pkg>fdasrvf</pkg> Functions to support functional data analysis using the square root velocity framework.</li>
 <li>The <a href="https://cran.r-project.org/web/packages/fda.usc/index.html">fda.usc</a> package provides routines for exploratory and descriptive analysis of functional data such as depth measurements, outlier detection, as well as unsupervised and supervised classification, (univariate, nonparametric) regression models with a functional covariate and functional analysis of variance.</li>
 <li>The <pkg>funData</pkg> package provides S4 classes for univariate and multivariate functional data and utility functions.</li>
 <li><pkg>fds</pkg> contains 19 data sets with functional data.</li>
 <li>The <pkg>rainbow</pkg> package contains functions and data sets for functional data display, exploratory analysis and outlier detection.</li>
+<li><pkg>roahd</pkg> provides methods for the robust analysis of univariate and multivariate functional data, possibly in high-dimensional cases, and hence with attention to computational efficiency and simplicity of use.</li>
 </ul>
 <p><strong>Regression models for functional data</strong></p>
 <ul>
@@ -33,11 +35,13 @@ Functional data analysis (FDA) deals with data that <a href="https://en.wikipedi
 <li><pkg>funFEM</pkg> The funFEM algorithm (Bouveyron et al., 2014) allows to cluster functional data by modeling the curves within a common and discriminative functional subspace.</li>
 <li>The <pkg>funHDDC</pkg> package provides the funHDDC algorithm (Bouveyron &amp; Jacques, 2011) which allows to cluster functional data by modeling each group within a specific functional subspace.</li>
 <li><pkg>funcy</pkg> provides a unified framework to cluster functional data according to one of seven models. All models are based on the projection of the curves onto a basis. Method specific as well as general visualization tools are available.</li>
+<li><pkg>fdakma</pkg> performs clustering and alignment of a multidimensional or unidimensional functional dataset by means of k-mean alignment.</li>
 </ul>
-<p><strong>Registering functional data</strong></p>
+<p><strong>Registering and aligning functional data</strong></p>
 <ul>
 <li><pkg>fdasrvf</pkg> Functions to support functional data analysis using the square root velocity framework.</li>
 <li><pkg>warpMix</pkg> Warping for functional data using B-spline based mixed effects models.</li>
+<li><pkg>fdakma</pkg> performs clustering and alignment of a multidimensional or unidimensional functional dataset by means of k-mean alignment.</li>
 </ul>
 <p><strong>Other</strong></p>
 <ul>
@@ -57,33 +61,38 @@ Functional data analysis (FDA) deals with data that <a href="https://en.wikipedi
 </info>
 <packagelist>
 <pkg>fda</pkg>
-<pkg>fda.usc</pkg>
-<pkg>funData</pkg>
-<pkg>fds</pkg>
-<pkg>rainbow</pkg>
-<pkg>GPFDA</pkg>
-<pkg>growfunctions</pkg>
-<pkg>refund</pkg>
-<pkg>refund.wave</pkg>
-<pkg>refund.shiny</pkg>
-<pkg>FDboost</pkg>
-<pkg>fdaPDE</pkg>
-<pkg>flars</pkg>
+<pkg>fdakma</pkg>
 <pkg>fdapace</pkg>
+<pkg>fdaPDE</pkg>
+<pkg>fdasrvf</pkg>
+<pkg>fdatest</pkg>
+<pkg>fda.usc</pkg>
+<pkg>FDboost</pkg>
+<pkg>fdcov</pkg>
+<pkg>fds</pkg>
+<pkg>flars</pkg>
+<pkg>ftsa</pkg>
 <pkg>Funclustering</pkg>
+<pkg>funcy</pkg>
+<pkg>funData</pkg>
 <pkg>funFEM</pkg>
 <pkg>funHDDC</pkg>
-<pkg>funcy</pkg>
-<pkg>fdasrvf</pkg>
-<pkg>warpMix</pkg>
-<pkg>MFPCA</pkg>
-<pkg>fdatest</pkg>
 <pkg>geofd</pkg>
-<pkg>RFgroove</pkg>
-<pkg>switchnpreg</pkg>
-<pkg>fdcov</pkg>
-<pkg>ftsa</pkg>
+<pkg>GPFDA</pkg>
+<pkg>growfunctions</pkg>
+<pkg>MFPCA</pkg>
 <pkg>pcdpca</pkg>
+<pkg>rainbow</pkg>
+<pkg>refund</pkg>
+<pkg>refund.shiny</pkg>
+<pkg>refund.wave</pkg>
+<pkg>RFgroove</pkg>
+<pkg>roahd</pkg>
+<pkg>switchnpreg</pkg>
+<pkg>warpMix</pkg>
 </packagelist>
-<links><a href="http://www.psych.mcgill.ca/misc/fda/">FDA</a></links>
+<links>
+<a href="http://www.psych.mcgill.ca/misc/fda/">Website of the canonical FDA book</a>
+<a href="http://www.stat.ucdavis.edu/PACE/">PACE: collection of MATLAB scripts from UC Davis</a>
+</links>
 </CRANTaskView>
