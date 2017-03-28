@@ -10,7 +10,7 @@ if (any(not_there)) {
 }
 
 install.packages(pkgs[!(pkgs %in% rownames(installed.packages()))])
-maintainers = get_maintainer_mail(pkgs)
+cat(maintainers = unique(sapply(pkgs, get_maintainer_mail)))
 
 # render XML from md
 md2ctv("CRAN_task_view_fda.md")
