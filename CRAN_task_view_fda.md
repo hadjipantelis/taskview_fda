@@ -59,6 +59,7 @@ Functional data analysis (FDA) deals with data that <a href="https://en.wikipedi
 #### Other
 
 * [MFPCA](https://cran.r-project.org/web/packages/MFPCA/index.html): Multivariate functional principal component analysis for multivariate functional data, also for data observed on different dimensional domains (e.g., images and curves).
+* [fpca](https://cran.r-project.org/web/packages/fpca/index.html) Functional principal components for sparsely observed data. A geometric approach to MLE for functional principal components.
 * The [fdatest](https://cran.r-project.org/web/packages/fdatest/index.html) package provides an implementation of the Interval Testing Procedure for functional data in different frameworks (i.e., one or two-population frameworks, functional linear models) by means of different basis expansions (i.e., B-spline, Fourier, and phase-amplitude Fourier).
 * The [geofd](https://cran.r-project.org/web/packages/geofd/index.html) package provides Kriging based methods for predicting functional data (curves) with spatial dependence.
 * [RFgroove](https://cran.r-project.org/web/packages/RFgroove/index.html): Importance Measure and Selection for Groups of Variables with Random Forests.
