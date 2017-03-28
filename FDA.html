@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>CRAN Task View: Functional data analysis</title>
+  <link rel="stylesheet" type="text/css" href="../CRAN_web.css" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="citation_title" content="CRAN Task View: Functional data analysis" />
+  <meta name="citation_author" content="Fabian Scheipl" />
+  <meta name="citation_publication_date" content="2017-03-28" />
+  <meta name="citation_public_url" content="https://CRAN.R-project.org/view=FDA" />
+  <meta name="DC.title" content="CRAN Task View: Functional data analysis" />
+  <meta name="DC.creator" content="Fabian Scheipl" />
+  <meta name="DC.issued" content="2017-03-28" />
+  <meta name="DC.identifier" content="https://CRAN.R-project.org/view=FDA" />
+</head>
+
+<body>
+  <h2>CRAN Task View: Functional data analysis</h2>
+  <table summary="FDA task view information">
+    <tr><td valign="top"><b>Maintainer:</b></td><td>Fabian Scheipl</td></tr>
+    <tr><td valign="top"><b>Contact:</b></td><td>&#x66;&#x61;&#x62;&#x69;&#x61;&#x6e;&#x2e;&#x73;&#x63;&#x68;&#x65;&#x69;&#x70;&#x6c;&#x20;&#x61;&#x74;&#x20;&#x73;&#x74;&#x61;&#x74;&#x2e;&#x75;&#x6e;&#x69;&#x2d;&#x6d;&#x75;&#x65;&#x6e;&#x63;&#x68;&#x65;&#x6e;&#x2e;&#x64;&#x65;</td></tr>
+    <tr><td valign="top"><b>Version:</b></td><td>2017-03-28</td></tr>
+    <tr><td valign="top"><b>URL:</b></td><td><a href="https://CRAN.R-project.org/view=FDA">https://CRAN.R-project.org/view=FDA</a></td></tr>
+  </table>
+
+    <div>
+      <p>
+        Functional data analysis (FDA) deals with data that
+        <a href="https://en.wikipedia.org/wiki/Functional_data_analysis">
+          &quot;provides information about curves, surfaces or anything else varying over a continuum&quot;
+        </a>. This task view catalogues available packages in this rapidly developing field.
+      </p>
+      <p>
+        <strong>
+          General functional data analysis
+        </strong>
+      </p>
+      <ul>
+        <li>
+          The
+<a href="../packages/fda/index.html">fda</a>
+          package provides functions to enable all aspects of functional data analysis: It includes object-types for functional data with corresponding functions for smoothing, plotting and regression models. The package includes data sets and script files for working examples from the book: Ramsay, J. O., Hooker, Giles, and Graves, Spencer (2009) “Data Analysis with R and Matlab” (Springer).
+        </li>
+        <li>
+          The
+          <a href="https://cran.r-project.org/web/packages/fda.usc/index.html">
+            fda.usc
+          </a>
+          package provides routines for exploratory and descriptive analysis of functional data such as depth measurements, outlier detection, as well as unsupervised and supervised classification, (univariate, nonparametric) regression models with a functional covariate and functional analysis of variance.
+        </li>
+        <li>
+          The
+<a href="../packages/funData/index.html">funData</a>
+          package provides S4 classes for univariate and multivariate functional data and utility functions.
+        </li>
+        <li>
+<a href="../packages/fds/index.html">fds</a>
+          contains 19 data sets with functional data.
+        </li>
+        <li>
+          The
+<a href="../packages/rainbow/index.html">rainbow</a>
+          package contains functions and data sets for functional data display, exploratory analysis and outlier detection.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Regression models for functional data
+        </strong>
+      </p>
+      <ul>
+        <li>
+<a href="../packages/GPFDA/index.html">GPFDA</a>
+          uses functional regression as the mean structure and Gaussian processes as the covariance structure.
+        </li>
+        <li>
+<a href="../packages/growfunctions/index.html">growfunctions</a>
+          estimates a collection of time-indexed functions under either of Gaussian process (GP) or intrinsic Gaussian Markov random field (iGMRF) prior formulations where a Dirichlet process mixture allows sub-groupings of the functions to share the same covariance or precision parameters. The GP and iGMRF formulations both support any number of additive covariance or precision terms, respectively, expressing either or both of multiple trend and seasonality.
+        </li>
+        <li>
+          The
+<a href="../packages/refund/index.html">refund</a>
+          package provides spline-based methods for roughness penalized function-on-scalar, scalar-on-function, and function-on-function regression. Some of the functions are applicable to image data.
+        </li>
+        <li>
+          <a href="https://cran.r-project.org/web/packages/refund.wave/index.html">
+            refund.wave
+          </a>
+          provides methods for regressing scalar responses on functional or image predictors, via transformation to the wavelet domain and back.
+        </li>
+        <li>
+          <a href="https://cran.r-project.org/web/packages/refund.shiny/index.html">
+            refund.shiny
+          </a>
+          provides interactive plots for functional data analyses.
+        </li>
+        <li>
+<a href="../packages/FDboost/index.html">FDboost</a>
+          implements flexible additive regression models and variable selection for scalar-on-function, function-on-scalar and function-on-function regression models that are fitted by a component-wise gradient boosting algorithm.
+        </li>
+        <li>
+          The
+<a href="../packages/fdaPDE/index.html">fdaPDE</a>
+          package contains an implementation of regression models with partial differential regularizations.
+        </li>
+        <li>
+          The
+<a href="../packages/flars/index.html">flars</a>
+          package implements variable selection for the functional linear regression with scalar response variable and mixed scalar/functional predictors based on the least angle regression approach.
+        </li>
+        <li>
+          The
+<a href="../packages/fdapace/index.html">fdapace</a>
+          provides functional principal component based methods for sparsely or densely sampled random trajectories and time courses for functional regression and correlation, for Longitudinal Data Analysis, the analysis of stochastic processes from samples of realized trajectories, and for the analysis of underlying dynamics.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Clustering functional data
+        </strong>
+      </p>
+      <ul>
+        <li>
+          The
+<a href="../packages/Funclustering/index.html">Funclustering</a>
+          package contains a model-based clustering algorithm for multivariate functional data.
+        </li>
+        <li>
+<a href="../packages/funFEM/index.html">funFEM</a>
+          The funFEM algorithm (Bouveyron et al., 2014) allows to cluster functional data by modeling the curves within a common and discriminative functional subspace.
+        </li>
+        <li>
+          The
+<a href="../packages/funHDDC/index.html">funHDDC</a>
+          package provides the funHDDC algorithm (Bouveyron &amp; Jacques, 2011) which allows to cluster functional data by modeling each group within a specific functional subspace.
+        </li>
+        <li>
+<a href="../packages/funcy/index.html">funcy</a>
+          provides a unified framework to cluster functional data according to one of seven models. All models are based on the projection of the curves onto a basis. Method specific as well as general visualization tools are available.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Registering functional data
+        </strong>
+      </p>
+      <ul>
+        <li>
+<a href="../packages/fdasrvf/index.html">fdasrvf</a>
+          Functions to support functional data analysis using the square root velocity framework.
+        </li>
+        <li>
+<a href="../packages/warpMix/index.html">warpMix</a>
+          Warping for functional data using B-spline based mixed effects models.
+        </li>
+      </ul>
+      <p>
+        <strong>
+          Other
+        </strong>
+      </p>
+      <ul>
+        <li>
+<a href="../packages/MFPCA/index.html">MFPCA</a>: Multivariate functional principal component analysis for multivariate functional data, also for data observed on different dimensional domains (e.g., images and curves).
+        </li>
+        <li>
+          The
+<a href="../packages/fdatest/index.html">fdatest</a>
+          package provides an implementation of the Interval Testing Procedure for functional data in different frameworks (i.e., one or two-population frameworks, functional linear models) by means of different basis expansions (i.e., B-spline, Fourier, and phase-amplitude Fourier).
+        </li>
+        <li>
+          The
+<a href="../packages/geofd/index.html">geofd</a>
+          package provides Kriging based methods for predicting functional data (curves) with spatial dependence.
+        </li>
+        <li>
+<a href="../packages/RFgroove/index.html">RFgroove</a>: Importance Measure and Selection for Groups of Variables with Random Forests.
+        </li>
+        <li>
+<a href="../packages/switchnpreg/index.html">switchnpreg</a>: Functions for estimating the parameters from the latent state process and the functions corresponding to the J states as proposed by De Souza and Heckman (2013).
+        </li>
+        <li>
+<a href="../packages/fdcov/index.html">fdcov</a>
+          Provides a variety of tools for the analysis of covariance operators.
+        </li>
+        <li>
+<a href="../packages/ftsa/index.html">ftsa</a>
+          Functions for visualizing, modeling, forecasting and hypothesis testing of functional time series.
+        </li>
+        <li>
+<a href="../packages/pcdpca/index.html">pcdpca</a>
+          Extends multivariate dynamic principal components to periodically correlated multivariate time series.
+        </li>
+      </ul>
+      <p>
+        The Functional Data Analysis Task View is written by Fabian Scheipl, Sonja Greven and Tore Erdmann (LMU München, Germany). Please open an issue at
+        <a href="https://github.com/fabian-s/taskview_fda/issues">
+          our Github repository
+        </a>
+        with suggestions, additions and improvements (… or fork it and send a pull request).
+      </p>
+    </div>
+
+  <h3>CRAN packages:</h3>
+  <ul>
+    <li><a href="../packages/fda/index.html">fda</a></li>
+    <li><a href="../packages/fdapace/index.html">fdapace</a></li>
+    <li><a href="../packages/fdaPDE/index.html">fdaPDE</a></li>
+    <li><a href="../packages/fdasrvf/index.html">fdasrvf</a></li>
+    <li><a href="../packages/fdatest/index.html">fdatest</a></li>
+    <li><a href="../packages/fda.usc/index.html">fda.usc</a></li>
+    <li><a href="../packages/FDboost/index.html">FDboost</a></li>
+    <li><a href="../packages/fdcov/index.html">fdcov</a></li>
+    <li><a href="../packages/fds/index.html">fds</a></li>
+    <li><a href="../packages/flars/index.html">flars</a></li>
+    <li><a href="../packages/ftsa/index.html">ftsa</a></li>
+    <li><a href="../packages/Funclustering/index.html">Funclustering</a></li>
+    <li><a href="../packages/funcy/index.html">funcy</a></li>
+    <li><a href="../packages/funData/index.html">funData</a></li>
+    <li><a href="../packages/funFEM/index.html">funFEM</a></li>
+    <li><a href="../packages/funHDDC/index.html">funHDDC</a></li>
+    <li><a href="../packages/geofd/index.html">geofd</a></li>
+    <li><a href="../packages/GPFDA/index.html">GPFDA</a></li>
+    <li><a href="../packages/growfunctions/index.html">growfunctions</a></li>
+    <li><a href="../packages/MFPCA/index.html">MFPCA</a></li>
+    <li><a href="../packages/pcdpca/index.html">pcdpca</a></li>
+    <li><a href="../packages/rainbow/index.html">rainbow</a></li>
+    <li><a href="../packages/refund/index.html">refund</a></li>
+    <li><a href="../packages/refund.shiny/index.html">refund.shiny</a></li>
+    <li><a href="../packages/refund.wave/index.html">refund.wave</a></li>
+    <li><a href="../packages/RFgroove/index.html">RFgroove</a></li>
+    <li><a href="../packages/switchnpreg/index.html">switchnpreg</a></li>
+    <li><a href="../packages/warpMix/index.html">warpMix</a></li>
+  </ul>
+
+  <h3>Related links:</h3>
+  <ul>
+    <li><a href="http://www.psych.mcgill.ca/misc/fda/">
+  FDA
+</a></li>
+  </ul>
+
+</body>
+</html>
