@@ -52,7 +52,7 @@ Functional data analysis (FDA) deals with data that <a href="https://en.wikipedi
 
 #### Registering and aligning functional data 
 
-* [fdasrvf](https://cran.r-project.org/web/packages/fdasrvf/index.html) Functions to support functional data analysis using the square root velocity framework.
+* [fdasrvf](https://cran.r-project.org/web/packages/fdasrvf/index.html) Performes alignment, PCA, and regression of multimenssional or unidimensional functions using the square-root velocity framework (Srivastava et al., 2011). This framework allows for elastic analysis of functional data through phase and amplitude separation.
 * [warpMix](https://cran.r-project.org/web/packages/warpMix/index.html) Warping for functional data using B-spline based mixed effects models.
 * [fdakma](https://cran.r-project.org/web/packages/fdakma/index.html) performs clustering and alignment of a multidimensional or unidimensional functional dataset by means of k-mean alignment.
 
