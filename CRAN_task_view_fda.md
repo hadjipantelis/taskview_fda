@@ -65,7 +65,8 @@ Functional data analysis (FDA) deals with data that <a href="https://en.wikipedi
 * [switchnpreg](https://cran.r-project.org/web/packages/switchnpreg/index.html): Functions for estimating the parameters from the latent state process and the functions corresponding to the J states as proposed by De Souza and Heckman (2013).
 * [fdcov](https://cran.r-project.org/web/packages/fdcov/index.html) Provides a variety of tools for the analysis of covariance operators.
 * [ftsa](https://cran.r-project.org/web/packages/ftsa/index.html) Functions for visualizing, modeling, forecasting and hypothesis testing of functional time series.
-* [pcdpca](https://cran.r-project.org/web/packages/pcdpca/index.html) Extends multivariate dynamic principal components to periodically correlated multivariate time series.
+* [freqdom](https://cran.r-project.org/web/packages/freqdom/index.html) Frequency domain methods for multivariate anf functional time series. Implementation of dynamic functional principal components and functional regression in the presence of temporal dependance.
+* [pcdpca](https://cran.r-project.org/web/packages/pcdpca/index.html) Extends multivariate dynamic principal components to periodically correlated multivariate and functional time series.
 
 The Functional Data Analysis Task View is written by Fabian Scheipl, Sonja Greven and Tore Erdmann (LMU München, Germany).
 Please open an issue at <a href="https://github.com/fabian-s/taskview_fda/issues">our Github repository</a> with suggestions, additions and improvements (... or fork it and send a pull request).
