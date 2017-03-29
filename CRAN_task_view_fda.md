@@ -22,7 +22,7 @@ Functional data analysis (FDA) deals with data that <a href="https://en.wikipedi
 #### General functional data analysis
 
 * The [fda](https://cran.r-project.org/web/packages/fda/index.html) package provides functions to enable all aspects of functional data analysis: It includes object-types for functional data with corresponding functions for smoothing, plotting and regression models. The package includes data sets and script files for working examples from the book: Ramsay, J. O., Hooker, Giles, and Graves, Spencer (2009) "Data Analysis with R and Matlab" (Springer).
-* [fdasrvf](https://cran.r-project.org/web/packages/fdasrvf/index.html) Functions to support functional data analysis using the square root velocity framework.
+* [fdasrvf](https://cran.r-project.org/web/packages/fdasrvf/index.html) performs alignment, PCA, and regression of multidimensional or unidimensional functions using the square-root velocity framework (Srivastava et al., 2011). This framework allows for elastic analysis of functional data through phase and amplitude separation.
 * The [fda.usc](https://cran.r-project.org/web/packages/fda.usc/index.html) package provides routines for exploratory and descriptive analysis of functional data such as depth measurements, outlier detection, as well as unsupervised and supervised classification, (univariate, nonparametric) regression models with a functional covariate and functional analysis of variance.
 * The [funData](https://cran.r-project.org/web/packages/funData/index.html) package provides S4 classes for univariate and multivariate functional data and utility functions.
 * [fds](https://cran.r-project.org/web/packages/fds/index.html) contains 19 data sets with functional data.
@@ -52,7 +52,7 @@ Functional data analysis (FDA) deals with data that <a href="https://en.wikipedi
 
 #### Registering and aligning functional data 
 
-* [fdasrvf](https://cran.r-project.org/web/packages/fdasrvf/index.html) Performes alignment, PCA, and regression of multimenssional or unidimensional functions using the square-root velocity framework (Srivastava et al., 2011). This framework allows for elastic analysis of functional data through phase and amplitude separation.
+* [fdasrvf](https://cran.r-project.org/web/packages/fdasrvf/index.html) Performs alignment, PCA, and regression of multidimensional or unidimensional functions using the square-root velocity framework (Srivastava et al., 2011). This framework allows for elastic analysis of functional data through phase and amplitude separation.
 * [warpMix](https://cran.r-project.org/web/packages/warpMix/index.html) Warping for functional data using B-spline based mixed effects models.
 * [fdakma](https://cran.r-project.org/web/packages/fdakma/index.html) performs clustering and alignment of a multidimensional or unidimensional functional dataset by means of k-mean alignment.
 
