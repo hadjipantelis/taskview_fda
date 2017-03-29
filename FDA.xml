@@ -10,7 +10,7 @@ Functional data analysis (FDA) deals with data that <a href="https://en.wikipedi
 <p><strong>General functional data analysis</strong></p>
 <ul>
 <li>The <pkg>fda</pkg> package provides functions to enable all aspects of functional data analysis: It includes object-types for functional data with corresponding functions for smoothing, plotting and regression models. The package includes data sets and script files for working examples from the book: Ramsay, J. O., Hooker, Giles, and Graves, Spencer (2009) “Data Analysis with R and Matlab” (Springer).</li>
-<li><pkg>fdasrvf</pkg> Functions to support functional data analysis using the square root velocity framework.</li>
+<li><pkg>fdasrvf</pkg> performs alignment, PCA, and regression of multidimensional or unidimensional functions using the square-root velocity framework (Srivastava et al., 2011). This framework allows for elastic analysis of functional data through phase and amplitude separation.</li>
 <li>The <a href="https://cran.r-project.org/web/packages/fda.usc/index.html">fda.usc</a> package provides routines for exploratory and descriptive analysis of functional data such as depth measurements, outlier detection, as well as unsupervised and supervised classification, (univariate, nonparametric) regression models with a functional covariate and functional analysis of variance.</li>
 <li>The <pkg>funData</pkg> package provides S4 classes for univariate and multivariate functional data and utility functions.</li>
 <li><pkg>fds</pkg> contains 19 data sets with functional data.</li>
@@ -39,20 +39,22 @@ Functional data analysis (FDA) deals with data that <a href="https://en.wikipedi
 </ul>
 <p><strong>Registering and aligning functional data</strong></p>
 <ul>
-<li><pkg>fdasrvf</pkg> Functions to support functional data analysis using the square root velocity framework.</li>
+<li><pkg>fdasrvf</pkg> Performs alignment, PCA, and regression of multidimensional or unidimensional functions using the square-root velocity framework (Srivastava et al., 2011). This framework allows for elastic analysis of functional data through phase and amplitude separation.</li>
 <li><pkg>warpMix</pkg> Warping for functional data using B-spline based mixed effects models.</li>
 <li><pkg>fdakma</pkg> performs clustering and alignment of a multidimensional or unidimensional functional dataset by means of k-mean alignment.</li>
 </ul>
 <p><strong>Other</strong></p>
 <ul>
 <li><pkg>MFPCA</pkg>: Multivariate functional principal component analysis for multivariate functional data, also for data observed on different dimensional domains (e.g., images and curves).</li>
+<li><pkg>fpca</pkg> Functional principal components for sparsely observed data. A geometric approach to MLE for functional principal components.</li>
 <li>The <pkg>fdatest</pkg> package provides an implementation of the Interval Testing Procedure for functional data in different frameworks (i.e., one or two-population frameworks, functional linear models) by means of different basis expansions (i.e., B-spline, Fourier, and phase-amplitude Fourier).</li>
 <li>The <pkg>geofd</pkg> package provides Kriging based methods for predicting functional data (curves) with spatial dependence.</li>
 <li><pkg>RFgroove</pkg>: Importance Measure and Selection for Groups of Variables with Random Forests.</li>
 <li><pkg>switchnpreg</pkg>: Functions for estimating the parameters from the latent state process and the functions corresponding to the J states as proposed by De Souza and Heckman (2013).</li>
 <li><pkg>fdcov</pkg> Provides a variety of tools for the analysis of covariance operators.</li>
 <li><pkg>ftsa</pkg> Functions for visualizing, modeling, forecasting and hypothesis testing of functional time series.</li>
-<li><pkg>pcdpca</pkg> Extends multivariate dynamic principal components to periodically correlated multivariate time series.</li>
+<li><pkg>freqdom</pkg> Frequency domain methods for multivariate and functional time series. Implementation of dynamic functional principal components and functional regression in the presence of temporal dependence.</li>
+<li><pkg>pcdpca</pkg> Extends multivariate dynamic principal components to periodically correlated multivariate and functional time series.</li>
 </ul>
 <p>The Functional Data Analysis Task View is written by Fabian Scheipl, Sonja Greven and Tore Erdmann (LMU München, Germany). Please open an issue at <a href="https://github.com/fabian-s/taskview_fda/issues">our Github repository</a> with suggestions, additions and improvements (… or fork it and send a pull request).</p>
 
@@ -71,6 +73,8 @@ Functional data analysis (FDA) deals with data that <a href="https://en.wikipedi
 <pkg>fdcov</pkg>
 <pkg>fds</pkg>
 <pkg>flars</pkg>
+<pkg>fpca</pkg>
+<pkg>freqdom</pkg>
 <pkg>ftsa</pkg>
 <pkg>Funclustering</pkg>
 <pkg>funcy</pkg>
