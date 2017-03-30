@@ -28,6 +28,7 @@ Functional data analysis (FDA) deals with data that <a href="https://en.wikipedi
 <li>The <pkg>fdaPDE</pkg> package contains an implementation of regression models with partial differential regularizations.</li>
 <li>The <pkg>flars</pkg> package implements variable selection for the functional linear regression with scalar response variable and mixed scalar/functional predictors based on the least angle regression approach.</li>
 <li>The <pkg>fdapace</pkg> provides functional principal component based methods for sparsely or densely sampled random trajectories and time courses for functional regression and correlation, for Longitudinal Data Analysis, the analysis of stochastic processes from samples of realized trajectories, and for the analysis of underlying dynamics.</li>
+<li><pkg>dbstats</pkg> This package provides prediction methods where explanatory information is coded as a matrix of distances between individuals. It includes distance based versions of “lm” and “glm”, as well as nonparametric versions of both, based on local estimation. To apply these methods to functional data it is sufficient to calculate a distance matrix between the observed functional data.</li>
 </ul>
 <p><strong>Clustering functional data</strong></p>
 <ul>
@@ -62,6 +63,7 @@ Functional data analysis (FDA) deals with data that <a href="https://en.wikipedi
 
 </info>
 <packagelist>
+<pkg>dbstats</pkg>
 <pkg>fda</pkg>
 <pkg>fdakma</pkg>
 <pkg>fdapace</pkg>
