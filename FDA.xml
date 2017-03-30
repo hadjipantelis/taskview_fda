@@ -49,7 +49,7 @@ Functional data analysis (FDA) deals with data that <a href="https://en.wikipedi
 <li><pkg>fpca</pkg> Functional principal components for sparsely observed data. A geometric approach to MLE for functional principal components.</li>
 <li>The <pkg>fdatest</pkg> package provides an implementation of the Interval Testing Procedure for functional data in different frameworks (i.e., one or two-population frameworks, functional linear models) by means of different basis expansions (i.e., B-spline, Fourier, and phase-amplitude Fourier).</li>
 <li>The <pkg>geofd</pkg> package provides Kriging based methods for predicting functional data (curves) with spatial dependence.</li>
-<li><pkg>RFgroove</pkg>: Importance Measure and Selection for Groups of Variables with Random Forests.</li>
+<li><pkg>RFgroove</pkg>: Variable selection tools for groups of variables and functional data based on a new grouped variable importance with random forests, implementing Gregorutti, B., Michel, B. and Saint Pierre, P. (2015). Grouped variable importance with random forests and application to multiple functional data analysis, <i>Computational Statistics and Data Analysis</i> <b>90</b>, 15-35.</li>
 <li><pkg>switchnpreg</pkg>: Functions for estimating the parameters from the latent state process and the functions corresponding to the J states as proposed by De Souza and Heckman (2013).</li>
 <li><pkg>fdcov</pkg> Provides a variety of tools for the analysis of covariance operators.</li>
 <li><pkg>ftsa</pkg> Functions for visualizing, modeling, forecasting and hypothesis testing of functional time series.</li>
@@ -96,7 +96,7 @@ Functional data analysis (FDA) deals with data that <a href="https://en.wikipedi
 <pkg>warpMix</pkg>
 </packagelist>
 <links>
-<a href="http://www.psych.mcgill.ca/misc/fda/">Website of the canonical FDA book</a>
+<a href="http://www.psych.mcgill.ca/misc/fda/">Website of the canonical FDA book by Ramsay and Silverman</a>
 <a href="http://www.stat.ucdavis.edu/PACE/">PACE: collection of MATLAB scripts from UC Davis</a>
 </links>
 </CRANTaskView>
