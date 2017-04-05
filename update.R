@@ -14,8 +14,11 @@ if (length(to_install)) install.packages(to_install)
 cat(maintainers = unique(sapply(pkgs, get_maintainer_mail)))
 
 # render XML from md
-links <- c("<a href=\"http://www.psych.mcgill.ca/misc/fda/\">Website of the canonical FDA book by Ramsay and Silverman</a>",
-  "<a href=\"http://www.stat.ucdavis.edu/PACE/\">PACE: collection of MATLAB scripts from UC Davis</a>")
+links <- c(
+  "<a href=\"http://www.psych.mcgill.ca/misc/fda/\">Website of the canonical FDA book by Ramsay and Silverman</a>",
+  "<a href=\"http://www.stat.ucdavis.edu/PACE/\">PACE: collection of MATLAB scripts from UC Davis</a>",
+  "<a href=\"https://biostatistics.mdanderson.org/softwaredownload/SingleSoftware.aspx?Software_Id=70\">WFMM:
+   powerful software for Bayesian wavelet-based functional mixed models (C++/Matlab)</a>")
 md2ctv("CRAN_task_view_fda.md", links)
 
 # check compliance & render HTML
