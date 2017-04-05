@@ -40,6 +40,10 @@ md2ctv <- function(file, links, save = TRUE) {
   ## ... and package hyperlinks
   ll = sub("<a href=\"https://cran.+>(\\w+)</a>", replacement = "<pkg>\\1</pkg>", ll)
 
+  ## add correct date
+  dateline <- grep("<version>XXX", ll)
+  ll[dateline] <-  paste0("<version>", Sys.Date(), "</version>")
+
   # add XML header & footer
   pkglist = c("<packagelist>", paste0("<pkg>", sort(unique(pkgs)), "</pkg>"), "</packagelist>")
   ll = c("<CRANTaskView>", ll, "</info>", pkglist,

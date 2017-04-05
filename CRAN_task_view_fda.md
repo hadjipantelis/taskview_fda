@@ -11,8 +11,7 @@ output:
 <name>FDA</name>  
 <topic>Functional data analysis</topic>  
 <maintainer email="fabian.scheipl@stat.uni-muenchen.de">Fabian Scheipl </maintainer>  
-<maintainer email="sonja.greven@stat.uni-muenchen.de">Sonja Greven </maintainer>  
-<version>2017-03-28</version>  
+<version>XXX</version>  
 
 <info><p>
 Functional data analysis (FDA) deals with data that <a href="https://en.wikipedia.org/wiki/Functional_data_analysis">"provides information about curves, surfaces or anything else varying over a continuum."</a> This task view catalogues available packages in this rapidly developing field.</p>
